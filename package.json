@@ -1,0 +1,31 @@
+{
+  "name": "whatsnthworld.github.io",
+  "version": "1.0.0",
+  "description": "graduate work",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "dev": "webpack-dev-server --mode development --open --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AleksanrReva/WhatsNThWorld.github.io.git"
+  },
+  "keywords": [
+    "study",
+    "news",
+    "search"
+  ],
+  "author": "Aleksandr Reva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AleksanrReva/WhatsNThWorld.github.io/issues"
+  },
+  "homepage": "https://github.com/AleksanrReva/WhatsNThWorld.github.io#readme",
+  "devDependencies": {
+    "path": "0.12.7",
+    "webpack": "4.39.3",
+    "webpack-cli": "3.3.7",
+    "webpack-dev-server": "3.8.0"
+  }
+}
