@@ -14,12 +14,12 @@ module.exports = {
     module: {
         rules: [
             {
-            test: /\.js$/,
+            test: /\.js$/i,
             use: { loader: "babel-loader" }, 
             exclude: /node_modules/ 
             },
             {
-            test: /\.css$/,
+            test: /\.css$/i,
             use:  [MiniCssExtractPlugin.loader, 'css-loader', 'postcss-loader']
             },
             {
@@ -33,7 +33,17 @@ module.exports = {
                     disable: true,
                     },
                 },
-            ],
+            ]
+            },
+            {
+            test: /\.(woff(2)?|eot|ttf|otf)(\?v=\d+\.\d+\.\d+)?$/i,
+            use: [{
+                loader: 'file-loader',
+                options: {
+                    name: '[name].[ext]',
+                    outputPath: 'fonts/'
+                }            
+                }]
             }
         ]
     },

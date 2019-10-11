@@ -1,0 +1,8 @@
+.header__line {
+    position: absolute;
+    top:79px;
+    width: 1440px;
+    height: 1px;
+    background-color: #ffffff;
+    opacity: 0.2;
+}

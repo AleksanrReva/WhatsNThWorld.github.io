@@ -1,0 +1,23 @@
+@import url('./_active/header__menu_active.css');
+
+.header__menu {
+    margin-top: 32px;
+    margin-bottom: 26px;
+    margin-right: 5.5vw;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header__menu li {
+    position: relative;
+    padding-left: 34px;
+}
+
+.header__menu a {
+    font-family: 'Roboto';
+    font-style:  normal;
+    font-weight: 400;
+    font-size: 1.13rem;
+    color: #B6BCBF;
+    text-decoration: none;
+}
