@@ -1,0 +1,9 @@
+.footer__bar {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-top: 33px;
+    margin-bottom: 25px;
+}

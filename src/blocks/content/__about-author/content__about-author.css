@@ -1,0 +1,8 @@
+.content__about-author {
+    display: flex;
+    position: relative;
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}

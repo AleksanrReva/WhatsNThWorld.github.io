@@ -1,0 +1,11 @@
+.footer__social {
+    margin-right: 106px;
+}
+
+.footer__social a {
+    text-decoration: none;
+}
+
+.footer__social li {
+    display: inline;
+}

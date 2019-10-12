@@ -25,7 +25,8 @@
             </header>
             <div class="search__area">
                 <h1>Что в мире творится?</h1>
-                <p class="search__paragraph">Введите в поиске любую тему и узнайте, насколько популярной она была в носотях за прошедшую неделю.</p>
+                <p class="search__paragraph">Введите в поиске любую тему и узнайте, 
+                    насколько популярной она была в носотях за прошедшую неделю.</p>
                 <input class="search__input" placeholder="Введите тему новости">
                 <button class="search__button">Искать</button>
             </div>
@@ -33,10 +34,48 @@
 
         <main class="content">
             <section class=""></section>
-            <section class=""></section>
+            <section class="content__about-author">
+                <img class="content__user-pic" src="../src/images/user_pic.jpg" alt="Автор: Александр Рева" />
+                <div class="content__user-text">
+                    <h2>Об авторе</h2>
+                    <p>Это блок с описаением автора проекта. Здесь следует указать, как вас зовут, чем вы занимаетесь, 
+                        какими технологиями разработки владете.</p>
+                    <p>Также можно рассказать о процессе обучения в Практикуме, чему вы тут научились, и чем можете 
+                        помочь потенциальным заказчикам.</p>
+                </div>
+            </section>
         </main>
 
         <footer class="footer">
+            <div class="footer__bar">
+                <a class="footer__copyright" href="#" title="Титульная страница">&copy; 2019 Supersite</a>
+                <ul class="footer__nav">
+                    <li>
+                        <a class="footer__link" href="#" title="Титульная страница">Главная</a>
+                    </li>
+                    <li>
+                        <a class="footer__link" href="#" title="Информация о сайте">О проекте</a>
+                    </li>
+                    <li>
+                        <a class="footer__link" href="https://praktikum.yandex.ru" 
+                        title="Перейти на сайт" target="_blank">Яндекс.Практикум</a>
+                    </li>
+                </ul>
+                <ul class="footer__social">
+                    <li>
+                        <a class="" href="https://github.com/AleksanrReva" 
+                        title="Перейти на страницу автора" target="_blank">
+                            <img class="footer__icons" src="../src/favicon/github.svg" alt="Аккаунт на GitHub" />
+                        </a>
+                    </li>
+                    <li>
+                        <a class="" href="https://vk.com/revuxorn" 
+                        title="Перейти на страницу автора" target="_blank">
+                            <img class="footer__icons" src="../src/favicon/vk-logo.svg" alt="Аккаунт на VK" />
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </footer>
     </div>
     <script type="module" src="<%= htmlWebpackPlugin.files.chunks.main.entry %>"></script>
