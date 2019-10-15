@@ -5,7 +5,7 @@
 
 .search {
     background-color: #393D37;
-    background-image: url('../../images/main_background.png');
+    background-image: url('../../../src/images/main_background.png');
     background-repeat: no-repeat;
     background-position: top center;
     color: #ffffff;

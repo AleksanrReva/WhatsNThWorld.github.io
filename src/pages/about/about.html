@@ -1,0 +1,37 @@
+<html lang="ru"><head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="description" content="Дипломный проект">
+        <meta name="author" content="Александр Рева">
+        <title>Что в мире творится?</title>
+        <link rel="stylesheet" type="text/css" href="<%= htmlWebpackPlugin.files.chunks.about.css %>">
+    </head>
+    <body>
+        <div class="page">
+            <form class="search">
+                <header class="header">
+                    <div class="header__bar">
+                        <div class="header__logo">NewsAnalyzer</div>
+                        <ul class="header__menu">
+                            <li class="header__menu_active">
+                                <a href="../../../src/pages/index/index.html" title="Титульная страница">Главная</a>
+                            </li>
+                            <li>
+                                <a href="#" title="Информация о сайте">О проекте</a>
+                            </li>
+                        </ul>
+                    </div> 
+                </header>
+                <div class="search__area">
+                    <h1>Что в мире творится?</h1>
+                    <p class="search__paragraph">Введите в поиске любую тему и узнайте, 
+                        насколько популярной она была в носотях за прошедшую неделю.</p>
+                    <input class="search__input" placeholder="Введите тему новости">
+                    <button class="search__button">Искать</button>
+                </div>
+            </form>
+        </div>
+        <script type="module" src="<%= htmlWebpackPlugin.files.chunks.about.entry %>"></script>
+    </body>
+    </html>

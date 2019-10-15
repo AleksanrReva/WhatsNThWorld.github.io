@@ -5,7 +5,10 @@ const WebpackMd5Hash = require('webpack-md5-hash');
 
 module.exports = {
     entry: {
-        main: './src/index.js'
+        index: './src/pages/index/index.js',
+        about: './src/pages/about/about.js',
+        news: './src/pages/news/news.js'
+
     },
     output: {
         path: path.resolve(__dirname, 'dist'),
@@ -48,15 +51,30 @@ module.exports = {
         ]
     },
     plugins: [ 
-        new MiniCssExtractPlugin({filename: 'style.css'}),
+        new WebpackMd5Hash(),
+        new MiniCssExtractPlugin({
+            filename: 'pages/[name]/[name].[chunkhash].css'
+        }),
         new HtmlWebpackPlugin({
             inject: false,
             hash: true,
-            template: './src/index.html',
+            template: './src/pages/index/index.html',
+            chunks: 'index',
             filename: 'index.html'
         }),
-        new MiniCssExtractPlugin({
-            filename: 'style.[contenthash].css',
+        new HtmlWebpackPlugin({
+            inject: false,
+            hash: true,
+            template: './src/pages/about/about.html',
+            chunks: 'about',
+            filename: 'about.html'
+        }),
+        new HtmlWebpackPlugin({
+            inject: false,
+            hash: true,
+            template: './src/pages/news/news.html',
+            chunks: 'news',
+            filename: 'news.html'
         })
     ]
 };

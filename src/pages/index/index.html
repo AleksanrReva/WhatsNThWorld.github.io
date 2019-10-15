@@ -5,7 +5,7 @@
     <meta name="description" content="Дипломный проект">
     <meta name="author" content="Александр Рева">
     <title>Что в мире творится?</title>
-    <link rel="stylesheet" type="text/css" href="<%= htmlWebpackPlugin.files.chunks.main.css %>">
+    <link rel="stylesheet" type="text/css" href="<%= htmlWebpackPlugin.files.chunks.index.css %>">
 </head>
 <body>
     <div class="page">
@@ -18,10 +18,10 @@
                             <a href="#" title="Титульная страница">Главная</a>
                         </li>
                         <li>
-                            <a href="#" title="Информация о сайте">О проекте</a>
+                            <a href="../../../src/pages/about/about.html" title="Информация о сайте">О проекте</a>
                         </li>
                     </ul>
-                </div>
+                </div> 
             </header>
             <div class="search__area">
                 <h1>Что в мире творится?</h1>
@@ -35,7 +35,7 @@
         <main class="content">
             <section class=""></section>
             <section class="content__about-author">
-                <img class="content__user-pic" src="../src/images/user_pic.jpg" alt="Автор: Александр Рева" />
+                <img class="content__user-pic" src="../../../src/images/user_pic.jpg" alt="Автор: Александр Рева" />
                 <div class="content__user-text">
                     <h2>Об авторе</h2>
                     <p>Это блок с описаением автора проекта. Здесь следует указать, как вас зовут, чем вы занимаетесь, 
@@ -65,19 +65,19 @@
                     <li>
                         <a class="" href="https://github.com/AleksanrReva" 
                         title="Перейти на страницу автора" target="_blank">
-                            <img class="footer__icons" src="../src/favicon/github.svg" alt="Аккаунт на GitHub" />
+                            <img class="footer__icons" src="../../../src/favicon/github.svg" alt="Аккаунт на GitHub" />
                         </a>
                     </li>
                     <li>
                         <a class="" href="https://vk.com/revuxorn" 
                         title="Перейти на страницу автора" target="_blank">
-                            <img class="footer__icons" src="../src/favicon/vk-logo.svg" alt="Аккаунт на VK" />
+                            <img class="footer__icons" src="../../../src/favicon/vk-logo.svg" alt="Аккаунт на VK" />
                         </a>
                     </li>
                 </ul>
             </div>
         </footer>
     </div>
-    <script type="module" src="<%= htmlWebpackPlugin.files.chunks.main.entry %>"></script>
+    <script type="module" src="<%= htmlWebpackPlugin.files.chunks.index.entry %>"></script>
 </body>
 </html>
