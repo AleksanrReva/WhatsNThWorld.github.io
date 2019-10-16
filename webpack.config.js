@@ -1,4 +1,5 @@
 const path = require('path');
+const webpack = require('webpack');
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const WebpackMd5Hash = require('webpack-md5-hash');
@@ -8,11 +9,10 @@ module.exports = {
         index: './src/pages/index/index.js',
         about: './src/pages/about/about.js',
         news: './src/pages/news/news.js'
-
     },
     output: {
         path: path.resolve(__dirname, 'dist'),
-        filename: '[name].[chunkhash].js'
+        filename: 'pages/[name]/[name].[chunkhash].js'
     },
     module: {
         rules: [
@@ -59,22 +59,22 @@ module.exports = {
             inject: false,
             hash: true,
             template: './src/pages/index/index.html',
-            chunks: 'index',
-            filename: 'index.html'
+            chunks: ['index'],
+            filename: 'pages/index/index.html'
         }),
         new HtmlWebpackPlugin({
             inject: false,
             hash: true,
             template: './src/pages/about/about.html',
-            chunks: 'about',
-            filename: 'about.html'
+            chunks: ['about'],
+            filename: 'pages/about/about.html'
         }),
         new HtmlWebpackPlugin({
             inject: false,
             hash: true,
             template: './src/pages/news/news.html',
-            chunks: 'news',
-            filename: 'news.html'
+            chunks: ['news'],
+            filename: 'pages/news/news.html'
         })
     ]
 };
