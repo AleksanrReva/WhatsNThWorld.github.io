@@ -1,0 +1,7 @@
+.tech-info__content {
+    display: flex;
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-top: 94px;
+    background-color: #F5F6F7;
+}

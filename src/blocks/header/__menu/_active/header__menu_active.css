@@ -1,9 +1,10 @@
 .header__menu_active {
     color: #ffffff;
-}
-
-.header__menu_active a {
-    cursor: default;
+    font-family: 'Roboto';
+    font-style:  normal;
+    font-weight: 500;
+    font-size: 1.13rem;
+    text-decoration: none;
 }
 
 .header__menu_active::after {

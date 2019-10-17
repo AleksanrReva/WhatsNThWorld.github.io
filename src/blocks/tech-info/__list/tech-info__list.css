@@ -1,0 +1,12 @@
+.tech-info__list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    justify-content: center;
+    column-gap: 65px;
+    
+    margin: 0 auto;
+    margin-top: 98px;
+    margin-bottom: 97px;
+    margin-right: 216px;
+    max-width: 600px;
+}

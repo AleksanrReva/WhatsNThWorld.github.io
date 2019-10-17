@@ -12,7 +12,7 @@ h1 {
 }
 
 h2 {
-    font-family: Roboto Slab;
+    font-family: 'Roboto Slab';
     font-style: normal;
     font-weight: 400;
     font-size: 2.5rem;
@@ -20,14 +20,15 @@ h2 {
     color: #1A1B22;
 }
 
-p {
+/* p {
     margin-top: 32px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: normal;
     font-size: 1.13rem;
     line-height: 1.5rem;
-}
+    color: #1A1B22;
+} */
 
 ul {
     padding: 0;

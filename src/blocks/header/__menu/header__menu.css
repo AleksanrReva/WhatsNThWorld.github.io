@@ -16,8 +16,13 @@
 .header__menu a {
     font-family: 'Roboto';
     font-style:  normal;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 1.13rem;
     color: #B6BCBF;
+    text-decoration: none;
+}
+
+.header__menu a:hover {
+    color: #ffffff;
     text-decoration: none;
 }

@@ -9,15 +9,12 @@ module.exports = {
     entry: {
         index: './src/pages/index/index.js',
         about: './src/pages/about/about.js',
-        news: './src/pages/news/news.js'
+        paper: './src/pages/paper/paper.js'
     },
     output: {
         path: path.resolve(__dirname, 'dist'),
         filename: 'pages/[name]/[name].[chunkhash].js'
     },
-    // devServer: { 
-    //     contentBase: 'pages/index', 
-    // }, 
     module: {
         rules: [
             {
@@ -25,10 +22,6 @@ module.exports = {
             use: { loader: "babel-loader" }, 
             exclude: /node_modules/ 
             },
-            // {
-            // test: /\.css$/i,
-            // use:  [MiniCssExtractPlugin.loader, 'css-loader', 'postcss-loader']
-            // },
             {
                 test: /\.css$/i,
                 use: [
@@ -73,7 +66,6 @@ module.exports = {
         new MiniCssExtractPlugin({
             filename: 'pages/[name]/[name].[chunkhash].css'
         }),
-        // new HtmlWebpackPlugin(),
         new HtmlWebpackPlugin({
             inject: false,
             hash: true,
@@ -89,8 +81,8 @@ module.exports = {
         new HtmlWebpackPlugin({
             inject: false,
             hash: true,
-            template: './src/pages/news/news.html',
-            filename: 'news.html'
+            template: './src/pages/paper/paper.html',
+            filename: 'paper.html'
         }),
         new webpack.DefinePlugin({
             'NODE_ENV': JSON.stringify(process.env.NODE_ENV),

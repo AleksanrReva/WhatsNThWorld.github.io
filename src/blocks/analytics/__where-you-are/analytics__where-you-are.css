@@ -1,0 +1,12 @@
+@import url('./_color/analytics__where-you-are_color.css');
+
+.analytics__where-you-are {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.13rem;
+    color: #1A1B22;
+
+    margin-left: 104px;
+    margin-top: 43px;
+}

@@ -1,37 +1,118 @@
 <html lang="ru"><head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <meta name="description" content="Дипломный проект">
-        <meta name="author" content="Александр Рева">
-        <title>Что в мире творится?</title>
-        <link rel="stylesheet" type="text/css" href="<%= htmlWebpackPlugin.files.chunks.about.css %>">
-    </head>
-    <body>
-        <div class="page">
-            <form class="search">
-                <header class="header">
-                    <div class="header__bar">
-                        <div class="header__logo">NewsAnalyzer</div>
-                        <ul class="header__menu">
-                            <li>
-                                <a href="./index.html" title="Титульная страница">Главная</a>
-                            </li>
-                            <li class="header__menu_active">
-                                <a href="#" title="Информация о сайте">О проекте</a>
-                            </li>
-                        </ul>
-                    </div> 
-                </header>
-                <div class="search__area">
-                    <h1>Что в мире творится?</h1>
-                    <p class="search__paragraph">Введите в поиске любую тему и узнайте, 
-                        насколько популярной она была в носотях за прошедшую неделю.</p>
-                    <input class="search__input" placeholder="Введите тему новости">
-                    <button class="search__button">Искать</button>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Дипломный проект">
+    <meta name="author" content="Александр Рева">
+    <title>Что в мире творится? &mdash; О проекте</title>
+    <link rel="stylesheet" type="text/css" href="<%=htmlWebpackPlugin.files.chunks.about.css %>">
+</head>
+<body>
+    <div class="page">
+        <header class="header">
+            <div class="header__bar">
+                <a class="header__logo header__on-white" href="./index.html" title="Титульная страница">NewsAnalyzer</a>
+                <ul class="header__menu">
+                    <li>
+                        <a href="./index.html" title="Титульная страница">Главная</a>
+                    </li>
+                    <li class="header__menu_active header__on-white">
+                        <p>О проекте</p>
+                    </li>
+                </ul>
+            </div> 
+        </header>
+
+        <section class="client">
+            <div class="client__content">
+                <div class="client__text">
+                    <h2>Клиентам</h2>
+                    <p class="client__paragraph">Этот сайт — дипломный проект студента Яндекс.Практикума. 
+                        Его цель — показать, чему научился студент, и какими технологиями владеет.</p>
+                    <p class="client__paragraph">Вёрстка сайта выполнена по методологии БЭМ. Это делает сайт гибким и масштабируемым. 
+                        Кроме того, добавлять новые страницы и функциональность проще и быстрее, чем в проектах, 
+                        выполненных по другим методологиям. Также сайт проще и дешевле поддерживать.</p>
+                    <p class="client__paragraph">Карточки с новостям приходят с сервера и обрабатываются асинхронно. То есть сайт продолжает работать, 
+                        пока от сервера приходит ответ. Это повышает удобство использования сервиса.</p>
+                    <p class="client__paragraph">При создании проекта была использована сборка технологией Webpack. Это современных подход к разработке сайтов. 
+                        Код оптимизируется, а значит, сайт работает быстрее. Также настроена сайт работает в старых браузерах. 
+                        Даже если посетители — пользователи старых операционных систем у них не будет проблем с отображением. 
+                        А значит потенциальная аудитория возрастает.</p>
+                    <p class="client__paragraph">Проект был проверен экспертами Яндекс.Практикума. И если вашему бизнесу нужен сайт, 
+                        </p>
+                        <!-- мы рекомендуем обратиться к этому студенту. -->
                 </div>
-            </form>
-        </div>
-        <script type="module" src="<%= htmlWebpackPlugin.files.chunks.about.entry %>"></script>
-    </body>
-    </html>
+            </div>
+        </section>
+        <section class="tech-info">
+            <div class="tech-info__content">
+                <h2 class="tech-info__title">Используемые технологии</h2>
+                <ul class="tech-info__list">
+                    <li class="tech-info__item">
+                        <p class="tech-info__brand">HTML</p>
+                        <img class="tech-info__logo" src="../../../src/favicon/html.svg" alt="">
+                    </li>
+                    <li class="tech-info__item">
+                        <p class="tech-info__brand">CSS</p>
+                        <img class="tech-info__logo" src="../../../src/favicon/css.svg" alt="">
+                    </li>
+                    <li class="tech-info__item">
+                        <p class="tech-info__brand">Java Script</p>
+                        <img class="tech-info__logo" src="../../../src/favicon/js.svg" alt="">
+                    </li>
+                    <li class="tech-info__item">
+                        <p class="tech-info__brand">Webpack</p>
+                        <img class="tech-info__logo" src="../../../src/favicon/webpack.svg" alt="">
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="about-author">
+            <div class="about-author__content">
+                <img class="about-author__user-pic" src="../../../src/images/user_pic.jpg" alt="Автор: Александр Рева" />
+                <div class="about-author__user-text">
+                    <h2>Об авторе</h2>
+                    <p class="about-author__paragraph">Это блок с описанием автора проекта. Здесь следует указать, как вас зовут, чем вы занимаетесь, 
+                        какими технологиями разработки владеете.</p>
+                    <p class="about-author__paragraph">Также можно рассказать о процессе обучения в Практикуме, чему вы тут научились, и чем можете 
+                        помочь потенциальным заказчикам.</p>
+                    <p class="about-author__paragraph">Если хотите, оставьте свои контакты: email и телефон. Так заказчики смогут с вами связаться.</p>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="footer__bar">
+                <a class="footer__copyright" href="#" title="Титульная страница">&copy; 2019 Supersite</a>
+                <ul class="footer__nav">
+                    <li>
+                        <a class="footer__link" href="#" title="Титульная страница">Главная</a>
+                    </li>
+                    <li>
+                        <a class="footer__link" href="#" title="Информация о сайте">О проекте</a>
+                    </li>
+                    <li>
+                        <a class="footer__link" href="https://praktikum.yandex.ru" 
+                        title="Перейти на сайт" target="_blank">Яндекс.Практикум</a>
+                    </li>
+                </ul>
+                <ul class="footer__social">
+                    <li>
+                        <a class="" href="https://github.com/AleksanrReva" 
+                        title="Перейти на страницу автора" target="_blank">
+                            <img class="footer__icons" src="../../../src/favicon/github.svg" alt="Аккаунт на GitHub" />
+                        </a>
+                    </li>
+                    <li>
+                        <a class="" href="https://vk.com/revuxorn" 
+                        title="Перейти на страницу автора" target="_blank">
+                            <img class="footer__icons" src="../../../src/favicon/vk-logo.svg" alt="Аккаунт на VK" />
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+    <script src="<%= htmlWebpackPlugin.files.chunks.about.entry %>" type="module"></script>
+</body>
+</html>
