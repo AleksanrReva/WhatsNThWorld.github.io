@@ -1,0 +1,36 @@
+.table__line {
+    display: grid;
+    grid-template-columns: 104px 1fr;
+}
+
+.table__line:nth-child(n+2){
+    margin-top: 56px;
+}
+
+.table__line:nth-child(1) .table__bar {
+    width: 15%;
+}
+
+.table__line:nth-child(2) .table__bar {
+    width: 18%;
+}
+
+.table__line:nth-child(3) .table__bar {
+    width: 11%;
+}
+
+.table__line:nth-child(4) .table__bar {
+    width: 39%;
+}
+
+.table__line:nth-child(5) .table__bar {
+    width: 45%;
+}
+
+.table__line:nth-child(6) .table__bar {
+    width: 73%;
+}
+
+.table__line:nth-child(7) .table__bar {
+    width: 34%;
+}

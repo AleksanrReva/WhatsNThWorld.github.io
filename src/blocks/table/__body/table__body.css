@@ -1,0 +1,7 @@
+.table__body {
+    max-width: 1232px;
+    margin: 0 auto;
+    margin-top: 12px;
+
+    border-top: 1px solid #1A1B22;
+}

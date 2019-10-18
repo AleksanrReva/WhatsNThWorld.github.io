@@ -1,0 +1,8 @@
+.table__content {
+    position: relative;
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-top: 80px;
+    padding-bottom: 87px;
+    background: #F5F6F7;
+}

@@ -1,0 +1,11 @@
+.table__title {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.63rem;
+    color: #1A1B22;
+
+    display: inline-block;
+    margin-left: 104px;
+    margin-top: 81px;
+}

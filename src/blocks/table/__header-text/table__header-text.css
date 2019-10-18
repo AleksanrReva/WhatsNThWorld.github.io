@@ -1,0 +1,12 @@
+.table__header-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    letter-spacing: 0.03rem;
+    text-transform: uppercase;
+    color: #B6BCBF;
+
+    margin-right: 48px;
+}
