@@ -1,0 +1,17 @@
+@keyframes spinner {
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+.search-result__spinner {
+    background-image: url('../../../favicon/ellipse.png');
+    background-repeat: no-repeat;
+    width: 74px;
+    height: 74px;
+
+    animation-name: spinner;
+    animation-duration: 0.75s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}

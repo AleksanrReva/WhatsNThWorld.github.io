@@ -1,0 +1,29 @@
+.result__analytics-link {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.13rem;
+    color: #1A1B22;
+    text-decoration: none;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-right: 112px;
+    margin-top: 5px;
+}
+
+.result__analytics-link::after {
+    content: "";
+    background-image: url('../../../favicon/black-arrow.svg');
+    background-repeat: no-repeat;
+    
+    display: block;
+    width: 8px;
+    height: 14px;
+    margin-left: 9px;
+}
+
+.result__analytics-link:hover {
+    opacity: 0.9;
+}

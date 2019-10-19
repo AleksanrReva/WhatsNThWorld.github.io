@@ -1,0 +1,10 @@
+.slider__content {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(400px, 400px));
+    grid-template-rows: 288px;
+    grid-gap: 16px;
+    justify-content: center;
+
+    margin: 0 auto;
+    margin-top: 64px;
+}

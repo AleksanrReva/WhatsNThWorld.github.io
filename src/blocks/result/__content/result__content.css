@@ -1,0 +1,12 @@
+.result__content {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-top: 80px;
+    padding-bottom: 80px;
+
+    background-color: #F5F6F7;
+
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}

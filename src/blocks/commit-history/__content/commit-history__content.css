@@ -1,0 +1,14 @@
+.commit-history__content {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-top: 70px;
+    padding-bottom: 62px;
+
+    background-color: #F5F6F7;
+
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    overflow-x: hidden;
+    position: relative;
+}

@@ -5,5 +5,8 @@
 @import url('../../blocks/client/client.css');
 @import url('../../blocks/tech-info/tech-info.css');
 @import url('../../blocks/about-author/about-author.css');
+@import url('../../blocks/commit-history/commit-history.css');
+@import url('../../blocks/slider/slider.css');
+@import url('../../blocks/page-dots/page-dots.css');
 @import url('../../blocks/footer/footer.css');
 @import url('../../blocks/header/__on-white/header__on-white.css');

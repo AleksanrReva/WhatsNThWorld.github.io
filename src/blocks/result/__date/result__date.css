@@ -1,0 +1,10 @@
+.result__date {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.13rem;
+    color: #B6BCBF;
+
+    margin-left: 24px;
+    margin-top: 22px;
+}

@@ -1,0 +1,11 @@
+.search-result__paragraph {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.13rem;
+    line-height: 1.5rem;
+    color: #B6BCBF;
+    
+    text-align: center;
+    margin-top: 24px;
+}

@@ -1,0 +1,16 @@
+.result__single-card {
+    background-color: #ffffff;
+    border-radius: 16px;
+    overflow: hidden;
+
+    position: relative;
+    padding-bottom: 54px;
+
+    transition: box-shadow 300ms ease, transform 300ms ease;
+}
+
+.result__single-card:hover {
+    cursor: pointer;
+    box-shadow: 0 24px 58px 0 rgba(8,29,45,0.1);
+    transform: translateY(-1px);
+}

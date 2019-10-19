@@ -1,0 +1,15 @@
+.result__source {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.25rem;
+    color: #B6BCBF;
+
+    letter-spacing: 0.03rem;
+    text-transform: uppercase;
+
+    margin-left: 24px;
+    position: absolute;
+    bottom: 24px;
+}

@@ -6,18 +6,19 @@
     <meta name="author" content="Александр Рева">
     <title>Что в мире творится? &mdash; Аналитика</title>
     <link rel="stylesheet" type="text/css" href="<%=htmlWebpackPlugin.files.chunks.paper.css %>">
+    <link rel="icon" href="../../../src/favicon/favicon.ico">
 </head>
 <body>
-    <div class="page">
+    <main class="page">
         <header class="header">
             <div class="header__bar">
-                <a class="header__logo header__on-white" href="./index.html" title="Титульная страница">NewsAnalyzer</a>
+                <a class="header__logo header__on-white" href="./index.html" title="Титульная страница" target="_blank">NewsAnalyzer</a>
                 <ul class="header__menu">
                     <li>
-                        <a href="./index.html" title="Титульная страница">Главная</a>
+                        <a href="./index.html" title="Титульная страница" target="_blank">Главная</a>
                     </li>
                     <li>
-                        <a href="./about.html" title="Информация о сайте">О проекте</a>
+                        <a href="./about.html" title="Информация о сайте" target="_blank">О проекте</a>
                     </li>
                 </ul>
             </div> 
@@ -89,13 +90,13 @@
 
         <footer class="footer">
             <div class="footer__bar">
-                <a class="footer__copyright" href="#" title="Титульная страница">&copy; 2019 Supersite</a>
+                <a class="footer__copyright" href="./index.html" title="Титульная страница" target="_blank">&copy; 2019 Supersite</a>
                 <ul class="footer__nav">
                     <li>
-                        <a class="footer__link" href="./index.html" title="Титульная страница">Главная</a>
+                        <a class="footer__link" href="./index.html" title="Титульная страница" target="_blank">Главная</a>
                     </li>
                     <li>
-                        <a class="footer__link" href="./about.html" title="Информация о сайте">О проекте</a>
+                        <a class="footer__link" href="./about.html" title="Информация о сайте" target="_blank">О проекте</a>
                     </li>
                     <li>
                         <a class="footer__link" href="https://praktikum.yandex.ru" 
@@ -118,7 +119,7 @@
                 </ul>
             </div>
         </footer>
-    </div>
+    </main>
     <script src="<%= htmlWebpackPlugin.files.chunks.paper.entry %>" type="module"></script>
 </body>
 </html>

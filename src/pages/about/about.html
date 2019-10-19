@@ -6,15 +6,16 @@
     <meta name="author" content="Александр Рева">
     <title>Что в мире творится? &mdash; О проекте</title>
     <link rel="stylesheet" type="text/css" href="<%=htmlWebpackPlugin.files.chunks.about.css %>">
+    <link rel="icon" href="../../../src/favicon/favicon.ico">
 </head>
 <body>
-    <div class="page">
+    <main class="page">
         <header class="header">
             <div class="header__bar">
-                <a class="header__logo header__on-white" href="./index.html" title="Титульная страница">NewsAnalyzer</a>
+                <a class="header__logo header__on-white" href="./index.html" title="Титульная страница" target="_blank">NewsAnalyzer</a>
                 <ul class="header__menu">
                     <li>
-                        <a href="./index.html" title="Титульная страница">Главная</a>
+                        <a href="./index.html" title="Титульная страница" target="_blank">Главная</a>
                     </li>
                     <li class="header__menu_active header__on-white">
                         <p>О проекте</p>
@@ -72,24 +73,109 @@
                 <img class="about-author__user-pic" src="../../../src/images/user_pic.jpg" alt="Автор: Александр Рева" />
                 <div class="about-author__user-text">
                     <h2>Об авторе</h2>
-                    <p class="about-author__paragraph">Это блок с описанием автора проекта. Здесь следует указать, как вас зовут, чем вы занимаетесь, 
-                        какими технологиями разработки владеете.</p>
-                    <p class="about-author__paragraph">Также можно рассказать о процессе обучения в Практикуме, чему вы тут научились, и чем можете 
-                        помочь потенциальным заказчикам.</p>
-                    <p class="about-author__paragraph">Если хотите, оставьте свои контакты: email и телефон. Так заказчики смогут с вами связаться.</p>
+                    <p class="about-author__paragraph">Это блок с описанием автора проекта. Здесь следует указать, 
+                        как вас зовут, чем вы занимаетесь, какими технологиями разработки владеете.</p>
+                    <p class="about-author__paragraph">Также можно рассказать о процессе обучения в Практикуме, 
+                        чему вы тут научились, и чем можете помочь потенциальным заказчикам.</p>
+                    <p class="about-author__paragraph">Если хотите, оставьте свои контакты: email и телефон. 
+                        Так заказчики смогут с вами связаться.</p>
                 </div>
+            </div>
+        </section>
+        <section class="commit-history">
+            <li class="commit-history__content">
+                <div class="commit-history__header">
+                    <h2 class="commit-history__title">История коммитов из GitHub</h2>
+                    <a class="commit-history__github-link" href="https://github.com/AleksanrReva/WhatsNThWorld.github.io/tree/level-1" 
+                    title="Аналитика за неделю в цифрах" target="_blank">Открыть в Github</a>
+                </div>
+                <div class="slider">
+                    <div class="slider__previous-slide"></div>
+                    <div class="slider__next-slide"></div>
+                    <ul class="slider__content">
+                        <li class="slider__slide">
+                            <p class="slider__slide-date">14 августа, 2019</p>
+                            <div class="slider__about-author">
+                                <img class="slider__author-avatar" src="../../../src/images/avatar-04.jpg" alt="" />
+                                <div class="slider__author-info">
+                                    <h3 class="slider__author-name">Лидия Рева</h3>
+                                    <p class="slider__author-email">lida@yandex.ru</p>
+                                </div>
+                            </div>
+                            <p class="slider__comment-text">Lorem ipsum dolor sit amet consectetur 
+                                adipisicing elit. Quam assumenda optio ipsa numquam officiis 
+                                quaerat iusto iure ea delectus et, saepe eveniet cum sed expedita 
+                                quasi, explicabo, tempora soluta vero?</p>
+                        </li>
+                        <li class="slider__slide">
+                            <p class="slider__slide-date">14 августа, 2019</p>
+                            <div class="slider__about-author">
+                                <img class="slider__author-avatar" src="../../../src/images/avatar-01.jpg" alt="" />
+                                <div class="slider__author-info">
+                                    <h3 class="slider__author-name">Антон Долинин</h3>
+                                    <p class="slider__author-email">anton@yandex.ru</p>
+                                </div>
+                            </div>
+                            <p class="slider__comment-text">Emmet (formerly Zen Coding) is 
+                                a web-developer’s toolkit that can greatly improve your HTML & CSS workflow.</p>
+                        </li>
+                        <li class="slider__slide">
+                            <p class="slider__slide-date">14 августа, 2019</p>
+                            <div class="slider__about-author">
+                                <img class="slider__author-avatar" src="../../../src/images/avatar-04.jpg" alt="" />
+                                <div class="slider__author-info">
+                                    <h3 class="slider__author-name">Мария Фёдорова</h3>
+                                    <p class="slider__author-email">mariiifed@yandex.ru</p>
+                                </div>
+                            </div>
+                            <p class="slider__comment-text">You can install this plugin directly from 
+                                NetBeans Plugin Portal: in NetBeans, open Tools > Plugins > Available 
+                                plugins and find and install Emmet plugin.</p>
+                        </li>
+                        <li class="slider__slide">
+                            <p class="slider__slide-date">14 августа, 2019</p>
+                            <div class="slider__about-author">
+                                <img class="slider__author-avatar" src="../../../src/images/avatar-03.jpg" alt="" />
+                                <div class="slider__author-info">
+                                    <h3 class="slider__author-name">Инга Иванова</h3>
+                                    <p class="slider__author-email">ingaiva@yandex.ru</p>
+                                </div>
+                            </div>
+                            <p class="slider__comment-text">With Emmet, you can type CSS-like expressions 
+                                that can be dynamically parsed, and produce output depending on 
+                                what you type in the abb...</p>
+                        </li>
+                        <li class="slider__slide">
+                            <p class="slider__slide-date">14 августа, 2019</p>
+                            <div class="slider__about-author">
+                                <img class="slider__author-avatar" src="../../../src/images/avatar-01.jpg" alt="" />
+                                <div class="slider__author-info">
+                                    <h3 class="slider__author-name">Антон Долинин</h3>
+                                    <p class="slider__author-email">anton@yandex.ru</p>
+                                </div>
+                            </div>
+                            <p class="slider__comment-text">Emmet (formerly Zen Coding) is 
+                                a web-developer’s toolkit that can greatly improve your HTML & CSS workflow.</p>
+                        </li>
+                    </ul>
+                </div>
+                <ol class="page-dots commit-history__page-dots">
+                    <li class="page-dots__dot"></li>
+                    <li class="page-dots__dot page-dots__dot_is-selected"></li>
+                    <li class="page-dots__dot"></li>
+                </ol>
             </div>
         </section>
 
         <footer class="footer">
             <div class="footer__bar">
-                <a class="footer__copyright" href="#" title="Титульная страница">&copy; 2019 Supersite</a>
+                <a class="footer__copyright" href="./index.html" title="Титульная страница" target="_blank">&copy; 2019 Supersite</a>
                 <ul class="footer__nav">
                     <li>
-                        <a class="footer__link" href="./index.html" title="Титульная страница">Главная</a>
+                        <a class="footer__link" href="./index.html" title="Титульная страница" target="_blank">Главная</a>
                     </li>
                     <li>
-                        <a class="footer__link" href="./about.html" title="Информация о сайте">О проекте</a>
+                        <a class="footer__link" href="./about.html" title="Информация о сайте" target="_blank">О проекте</a>
                     </li>
                     <li>
                         <a class="footer__link" href="https://praktikum.yandex.ru" 
@@ -112,7 +198,7 @@
                 </ul>
             </div>
         </footer>
-    </div>
+    </main>
     <script src="<%= htmlWebpackPlugin.files.chunks.about.entry %>" type="module"></script>
 </body>
 </html>

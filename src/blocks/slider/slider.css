@@ -1,0 +1,11 @@
+@import url('./__previous-slide/slider__previous-slide.css');
+@import url('./__next-slide/slider__next-slide.css');
+@import url('./__content/slider__content.css');
+@import url('./__slide/slider__slide.css');
+@import url('./__slide-date/slider__slide-date.css');
+@import url('./__about-author/slider__about-author.css');
+@import url('./__author-avatar/slider__author-avatar.css');
+@import url('./__author-info/slider__author-info.css');
+@import url('./__author-name/slider__author-name.css');
+@import url('./__author-email/slider__author-email.css');
+@import url('./__comment-text/slider__comment-text.css');

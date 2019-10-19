@@ -1,0 +1,10 @@
+.result__news-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    grid-gap: 16px;
+    justify-content: center;
+
+    max-width: 1232px;
+    margin: 0 auto;
+    margin-top: 64px;
+}

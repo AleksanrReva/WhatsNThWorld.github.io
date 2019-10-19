@@ -1,0 +1,19 @@
+.result__see-more {
+    width: 288px;
+    height: 64px;
+    border: none;
+    border-radius: 32px;
+    margin-top: 64px;
+    background-color: #ffffff;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.13rem;
+    color: #1A1B22;
+}
+
+.result__see-more:hover {
+    opacity: 0.9;
+    cursor: pointer;
+}
