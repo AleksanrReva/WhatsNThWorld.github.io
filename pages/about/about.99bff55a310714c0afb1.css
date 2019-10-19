@@ -636,7 +636,7 @@ ul {
 
 .commit-history__github-link::after {
     content: "";
-    background-image: url(../../b593bd74a1c79a845406f4f72072a362.svg);
+    background-image: url(../.././images/black-arrow.svg);
     background-repeat: no-repeat;
     
     display: block;
@@ -675,7 +675,7 @@ ul {
 
     width: 40px;
     height: 40px;
-    background-image: url(../../149b4231476c535ab70f15e4e5edfcc5.svg);
+    background-image: url(../.././images/slider-control.svg);
     border-radius: 50%;
     box-shadow: 0px 3px 10px rgba(14, 26, 57, 0.2);
 
@@ -703,7 +703,7 @@ ul {
 
     width: 40px;
     height: 40px;
-    background-image: url(../../149b4231476c535ab70f15e4e5edfcc5.svg);
+    background-image: url(../.././images/slider-control.svg);
     border-radius: 50%;
     box-shadow: 0px 3px 10px rgba(14, 26, 57, 0.2);
 

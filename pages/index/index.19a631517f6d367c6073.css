@@ -582,7 +582,7 @@ ul {
 }
 .search {
     background-color: #393D37;
-    background-image: url(../../652f6bb7e4f9c4d6537f1125436a7275.png);
+    background-image: url(../.././images/main_background.png);
     background-repeat: no-repeat;
     background-position: top center;
     color: #ffffff;
@@ -606,7 +606,7 @@ ul {
 }
 
 .search-result__spinner {
-    background-image: url(../../7d3c1eee8055ba0e3aa0fbcaa7b8fea2.png);
+    background-image: url(../.././images/ellipse.png);
     background-repeat: no-repeat;
     width: 74px;
     height: 74px;
@@ -701,7 +701,7 @@ ul {
 
 .result__analytics-link::after {
     content: "";
-    background-image: url(../../b593bd74a1c79a845406f4f72072a362.svg);
+    background-image: url(../.././images/black-arrow.svg);
     background-repeat: no-repeat;
     
     display: block;
