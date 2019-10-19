@@ -6,7 +6,7 @@
     <meta name="author" content="Александр Рева">
     <title>Что в мире творится? &mdash; О проекте</title>
     <link rel="stylesheet" type="text/css" href="<%=htmlWebpackPlugin.files.chunks.about.css %>">
-    <link rel="icon" href="../../../src/favicon/favicon.ico">
+    <link rel="icon" href="<%=require('../../favicon/favicon.ico')%>">
 </head>
 <body>
     <main class="page">
@@ -40,8 +40,7 @@
                         Даже если посетители — пользователи старых операционных систем у них не будет проблем с отображением. 
                         А значит потенциальная аудитория возрастает.</p>
                     <p class="client__paragraph">Проект был проверен экспертами Яндекс.Практикума. И если вашему бизнесу нужен сайт, 
-                        </p>
-                        <!-- мы рекомендуем обратиться к этому студенту. -->
+                        мы рекомендуем обратиться к этому студенту.</p>
                 </div>
             </div>
         </section>
@@ -51,26 +50,26 @@
                 <ul class="tech-info__list">
                     <li class="tech-info__item">
                         <p class="tech-info__brand">HTML</p>
-                        <img class="tech-info__logo" src="../../../src/favicon/html.svg" alt="">
+                        <img class="tech-info__logo" src="<%=require('../../favicon/html.svg')%>" alt="">
                     </li>
                     <li class="tech-info__item">
                         <p class="tech-info__brand">CSS</p>
-                        <img class="tech-info__logo" src="../../../src/favicon/css.svg" alt="">
+                        <img class="tech-info__logo" src="<%=require('../../favicon/css.svg')%>" alt="">
                     </li>
                     <li class="tech-info__item">
                         <p class="tech-info__brand">Java Script</p>
-                        <img class="tech-info__logo" src="../../../src/favicon/js.svg" alt="">
+                        <img class="tech-info__logo" src="<%=require('../../favicon/js.svg')%>" alt="">
                     </li>
                     <li class="tech-info__item">
                         <p class="tech-info__brand">Webpack</p>
-                        <img class="tech-info__logo" src="../../../src/favicon/webpack.svg" alt="">
+                        <img class="tech-info__logo" src="<%=require('../../favicon/webpack.svg')%>" alt="">
                     </li>
                 </ul>
             </div>
         </section>
         <section class="about-author">
             <div class="about-author__content">
-                <img class="about-author__user-pic" src="../../../src/images/user_pic.jpg" alt="Автор: Александр Рева" />
+                <img class="about-author__user-pic" src="<%=require('../../images/user_pic.jpg')%>" alt="Автор: Александр Рева" />
                 <div class="about-author__user-text">
                     <h2>Об авторе</h2>
                     <p class="about-author__paragraph">Это блок с описанием автора проекта. Здесь следует указать, 
@@ -96,7 +95,7 @@
                         <li class="slider__slide">
                             <p class="slider__slide-date">14 августа, 2019</p>
                             <div class="slider__about-author">
-                                <img class="slider__author-avatar" src="../../../src/images/avatar-04.jpg" alt="" />
+                                <img class="slider__author-avatar" src="<%=require('../../images/avatar-04.jpg')%>" alt="" />
                                 <div class="slider__author-info">
                                     <h3 class="slider__author-name">Лидия Рева</h3>
                                     <p class="slider__author-email">lida@yandex.ru</p>
@@ -110,7 +109,7 @@
                         <li class="slider__slide">
                             <p class="slider__slide-date">14 августа, 2019</p>
                             <div class="slider__about-author">
-                                <img class="slider__author-avatar" src="../../../src/images/avatar-01.jpg" alt="" />
+                                <img class="slider__author-avatar" src="<%=require('../../images/avatar-01.jpg')%>" alt="" />
                                 <div class="slider__author-info">
                                     <h3 class="slider__author-name">Антон Долинин</h3>
                                     <p class="slider__author-email">anton@yandex.ru</p>
@@ -122,7 +121,7 @@
                         <li class="slider__slide">
                             <p class="slider__slide-date">14 августа, 2019</p>
                             <div class="slider__about-author">
-                                <img class="slider__author-avatar" src="../../../src/images/avatar-04.jpg" alt="" />
+                                <img class="slider__author-avatar" src="<%=require('../../images/avatar-04.jpg')%>" alt="" />
                                 <div class="slider__author-info">
                                     <h3 class="slider__author-name">Мария Фёдорова</h3>
                                     <p class="slider__author-email">mariiifed@yandex.ru</p>
@@ -135,7 +134,7 @@
                         <li class="slider__slide">
                             <p class="slider__slide-date">14 августа, 2019</p>
                             <div class="slider__about-author">
-                                <img class="slider__author-avatar" src="../../../src/images/avatar-03.jpg" alt="" />
+                                <img class="slider__author-avatar" src="<%=require('../../images/avatar-03.jpg')%>" alt="" />
                                 <div class="slider__author-info">
                                     <h3 class="slider__author-name">Инга Иванова</h3>
                                     <p class="slider__author-email">ingaiva@yandex.ru</p>
@@ -148,7 +147,7 @@
                         <li class="slider__slide">
                             <p class="slider__slide-date">14 августа, 2019</p>
                             <div class="slider__about-author">
-                                <img class="slider__author-avatar" src="../../../src/images/avatar-01.jpg" alt="" />
+                                <img class="slider__author-avatar" src="<%=require('../../images/avatar-01.jpg')%>" alt="" />
                                 <div class="slider__author-info">
                                     <h3 class="slider__author-name">Антон Долинин</h3>
                                     <p class="slider__author-email">anton@yandex.ru</p>
@@ -186,13 +185,13 @@
                     <li>
                         <a class="" href="https://github.com/AleksanrReva" 
                         title="Перейти на страницу автора" target="_blank">
-                            <img class="footer__icons" src="../../../src/favicon/github.svg" alt="Аккаунт на GitHub" />
+                            <img class="footer__icons" src="<%=require('../../favicon/github.svg')%>" alt="Аккаунт на GitHub" />
                         </a>
                     </li>
                     <li>
                         <a class="" href="https://vk.com/revuxorn" 
                         title="Перейти на страницу автора" target="_blank">
-                            <img class="footer__icons" src="../../../src/favicon/vk-logo.svg" alt="Аккаунт на VK" />
+                            <img class="footer__icons" src="<%=require('../../favicon/vk-logo.svg')%>" alt="Аккаунт на VK" />
                         </a>
                     </li>
                 </ul>

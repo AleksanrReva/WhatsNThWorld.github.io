@@ -37,17 +37,14 @@ module.exports = {
                 ]
             },
             {
-            test: /\.(gif|png|jpe?g|svg)$/i,
-            use: [
-                'file-loader',
-                {
-                loader: 'image-webpack-loader',
-                options: {
-                    bypassOnDebug: true,
-                    disable: true,
-                    },
-                },
-            ]
+                test: /\.(png|jpg|jpeg|gif|ico|svg)$/i,
+                use: [
+                     'file-loader?name=./images/[name].[ext]',
+                     {
+                         loader: 'image-webpack-loader',
+                         options: { }
+                     },
+                ],
             },
             {
             test: /\.(woff(2)?|eot|ttf|otf)(\?v=\d+\.\d+\.\d+)?$/i,

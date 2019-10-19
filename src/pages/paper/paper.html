@@ -6,7 +6,7 @@
     <meta name="author" content="Александр Рева">
     <title>Что в мире творится? &mdash; Аналитика</title>
     <link rel="stylesheet" type="text/css" href="<%=htmlWebpackPlugin.files.chunks.paper.css %>">
-    <link rel="icon" href="../../../src/favicon/favicon.ico">
+    <link rel="icon" href="<%=require('../../favicon/favicon.ico')%>">
 </head>
 <body>
     <main class="page">
@@ -107,13 +107,13 @@
                     <li>
                         <a class="" href="https://github.com/AleksanrReva" 
                         title="Перейти на страницу автора" target="_blank">
-                            <img class="footer__icons" src="../../../src/favicon/github.svg" alt="Аккаунт на GitHub" />
+                            <img class="footer__icons" src="<%=require('../../favicon/github.svg')%>" alt="Аккаунт на GitHub" />
                         </a>
                     </li>
                     <li>
                         <a class="" href="https://vk.com/revuxorn" 
                         title="Перейти на страницу автора" target="_blank">
-                            <img class="footer__icons" src="../../../src/favicon/vk-logo.svg" alt="Аккаунт на VK" />
+                            <img class="footer__icons" src="<%=require('../../favicon/vk-logo.svg')%>" alt="Аккаунт на VK" />
                         </a>
                     </li>
                 </ul>
