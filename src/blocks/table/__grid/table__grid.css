@@ -1,3 +1,9 @@
 .table__grid {
-    margin-top: 14px;
+    margin-top: 1.2vh;
+}    
+
+@media (max-width: 460px) {
+    .table__grid {
+        margin-top: 3.1vh;
+    }
 }

@@ -1,5 +1,5 @@
 .footer__social {
-    margin-right: 106px;
+    margin-right: 5.5vw;
 }
 
 .footer__social a {
@@ -8,4 +8,16 @@
 
 .footer__social li {
     display: inline;
+}
+
+@media (max-width: 896px) {
+    .footer__social {
+        margin-right: 3.5vw;
+    }
+}
+
+@media (max-width: 460px) {
+    .footer__social {
+        margin-right: 5.5vw;
+    }
 }

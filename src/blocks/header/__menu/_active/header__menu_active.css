@@ -11,8 +11,26 @@
     position: absolute;
     display: block;
     content: "";
-    top:44px;
-    width: calc(100% - 34px);
+    top: 4.7vh;
+    width: calc(100% - 1.65vw);
     height: 3px;
-    background-color: #ffffff;
+    background-color: #ffffff; 
+}
+
+@media (max-width: 896px) {
+    .header__menu_active::after {
+        top: 3.7vh;
+        width: calc(100% - 4.43vw);
+    }
+}
+
+@media (max-width: 460px) {
+    .header__menu_active {
+        font-size: 1rem;
+    }
+
+    .header__menu_active::after {
+        top: 6vh;
+        width: calc(100% - 3.43vw);
+    }
 }

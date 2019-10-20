@@ -1,5 +1,21 @@
 .tech-info__title {
-    max-width: 344px;
-    margin-left: 104px;
-    margin-top: 85px;
+    margin-left: 5.4vw;
+    margin-top: 9vh;
 }
+
+@media (max-width: 896px) {
+    .tech-info__title {
+        margin-top: 4vh;
+        padding-top: 4vh;
+        max-width: 35%;
+    }
+}
+
+@media (max-width: 460px) {
+    .tech-info__title {
+        padding-top: 5.5vh;
+        max-width: 90%;
+        line-height: 2.5rem;
+    }
+}
+

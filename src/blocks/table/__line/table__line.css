@@ -1,10 +1,10 @@
 .table__line {
     display: grid;
-    grid-template-columns: 104px 1fr;
+    grid-template-columns: 115px 1fr;
 }
 
 .table__line:nth-child(n+2){
-    margin-top: 56px;
+    margin-top: 5.9vh;
 }
 
 .table__line:nth-child(1) .table__bar {
@@ -33,4 +33,24 @@
 
 .table__line:nth-child(7) .table__bar {
     width: 34%;
+}
+
+@media (max-width: 896px) {
+    .table__line {
+        grid-template-columns: 117px 1fr;
+    }
+
+    .table__line:nth-child(n+2) {
+        margin-top: 5.2vh;
+    }
+}
+
+@media (max-width: 460px) {
+    .table__line {
+        grid-template-columns: 79px 1fr;
+    }
+
+    .table__line:nth-child(n+2) {
+        margin-top: 4.2vh;
+    }
 }

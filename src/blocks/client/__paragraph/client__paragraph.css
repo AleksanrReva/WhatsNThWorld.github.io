@@ -1,9 +1,21 @@
 .client__paragraph {
-    margin-top: 24px;
+    margin-top: 2.4vh;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: normal;
     font-size: 1.13rem;
     line-height: 1.5rem;
     color: #1A1B22;
+}
+
+@media (max-width: 896px) {
+    .client__paragraph {
+        margin-top: 1.6vh;
+    }
+}
+
+@media (max-width: 460px) {
+    .client__paragraph {
+        margin-top: 3.6vh;
+    }
 }

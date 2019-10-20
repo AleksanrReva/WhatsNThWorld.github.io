@@ -1,5 +1,21 @@
 .table__header {
-    margin-top: 47px;
-    margin-left: 104px;
-    display: flex;
+    margin-top: 5vh;
+    margin-left: 5.4vw;
+
+    display: grid;
+    grid-template-columns: 104px 1fr;
+}    
+
+@media (max-width: 896px) {
+    .table__header {
+        margin-top: 4.8vh;
+        grid-template-columns: 115px 1fr;
+    }
+}
+
+@media (max-width: 460px) {
+    .table__header {
+        margin-top: 2.8vh;
+        grid-template-columns: 79px 1fr;
+    }
 }

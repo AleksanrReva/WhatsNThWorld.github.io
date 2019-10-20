@@ -1,5 +1,21 @@
 .about-author__user-pic {
-    max-width: 464px;
     border-radius: 50%;
-    margin-left: 104px;
+    margin-left: 5.5vw;
+
+    width: 24.2vw;
+    height: 100%;
+}
+
+@media (max-width: 896px) {
+    .about-author__user-pic {
+        width: 30.2vw;
+    }
+}
+
+@media (max-width: 460px) {
+    .about-author__user-pic {
+        width: 85vw;
+        height: unset;
+        margin-left: 4vh;
+    }
 }

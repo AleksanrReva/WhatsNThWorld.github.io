@@ -1,12 +1,23 @@
 .analytics__question {
-    font-family: 'Roboto Slab';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 2.5rem;
     line-height: 2.88rem;
-    color: #1A1B22;
 
-    margin-left: 104px;
-    margin-top: 84px;
-    margin-bottom: 22px;
+    margin-left: 5.4vw;
+    margin-top: 9vh;
+    margin-bottom: 2.3vh;
+}
+
+@media (max-width: 896px) {
+    .analytics__question {
+        margin-top: 5.9vh;
+        margin-bottom: 1.8vh;
+    }
+}
+
+@media (max-width: 460px) {
+    .analytics__question {
+        line-height: 2.2rem;
+        
+        margin-top: 2.9vh;
+        margin-bottom: 2.7vh;
+    }
 }

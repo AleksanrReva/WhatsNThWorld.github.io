@@ -1,5 +1,17 @@
 .client__content {
     max-width: 1440px;
     margin: 0 auto;
-    margin-top: 80px;
+    margin-top: 8.6vh;
+}
+
+@media (max-width: 896px) {
+    .client__content {
+        margin-top: 3.1vh;
+    }
+}
+
+@media (max-width: 460px) {
+    .client__content {
+        margin-top: 3.5vh;
+    }
 }

@@ -1,11 +1,17 @@
 .table__title {
-    font-family: 'Roboto Slab';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 1.63rem;
-    color: #1A1B22;
-
     display: inline-block;
-    margin-left: 104px;
-    margin-top: 81px;
+    margin-left: 5.4vw;
+    margin-top: 8.6vh;
+}
+
+@media (max-width: 896px) {
+    .table__title {
+        margin-top: 3.9vh;
+    }
+}
+
+@media (max-width: 460px) {
+    .table__title {
+        margin-top: 4.9vh;
+    }
 }

@@ -3,7 +3,7 @@
     height: 64px;
     border: none;
     border-radius: 32px;
-    margin-top: 64px;
+    margin-top: 6.6vh;
     background-color: #ffffff;
 
     font-family: 'Roboto';
@@ -16,4 +16,22 @@
 .result__see-more:hover {
     opacity: 0.9;
     cursor: pointer;
+}
+
+@media (max-width: 896px) {
+    .result__see-more {
+        width: 240px;
+        height: 56px;
+        border-radius: 28px;
+        margin-top: 3.2vh;
+    }
+}
+
+@media (max-width: 460px) {
+    .result__see-more {
+        width: 288px;
+        height: 56px;
+        border-radius: 28px;
+        margin-top: 1.5vh;
+    }
 }

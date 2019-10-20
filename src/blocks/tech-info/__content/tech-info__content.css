@@ -2,6 +2,19 @@
     display: flex;
     max-width: 1440px;
     margin: 0 auto;
-    margin-top: 94px;
+    margin-top: 10vh;
     background-color: #F5F6F7;
+}
+
+@media (max-width: 896px) {
+    .tech-info__content {
+        display: block;
+        margin-top: 5.5vh;
+    }
+}
+
+@media (max-width: 460px) {
+    .tech-info__content {
+
+    }
 }

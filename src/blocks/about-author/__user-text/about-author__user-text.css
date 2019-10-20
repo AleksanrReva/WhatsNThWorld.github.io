@@ -1,5 +1,19 @@
 .about-author__user-text {
     max-width: 600px;
-    margin-left: 56px;
-    margin-top: 51px;
+    margin-left: 2.8vw;
+    margin-top: -8.5vh;
+}
+
+@media (max-width: 896px) {
+    .about-author__user-text {
+        margin-left: 3.8vw;
+        margin-top: -1.8vh;
+    }
+}
+
+@media (max-width: 460px) {
+    .about-author__user-text {
+        margin-left: 5vw;
+        margin-top: 4.2vh;
+    }
 }

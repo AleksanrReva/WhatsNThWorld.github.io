@@ -6,9 +6,15 @@
     color: #1A1B22;
     text-decoration: none;
 
-    margin: 0 20px 0 20px;
+    margin: 0 1vw 0 1vw;
 }
 
 .footer__link:hover {
     color: #B6BCBF;
+}
+
+@media (max-width: 460px) {
+    .footer__link {
+        margin: 0 1vw 0 -39vw;
+    }
 }

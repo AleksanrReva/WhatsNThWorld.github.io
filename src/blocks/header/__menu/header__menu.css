@@ -1,16 +1,16 @@
 @import url('./_active/header__menu_active.css');
 
 .header__menu {
-    margin-top: 32px;
-    margin-bottom: 26px;
-    margin-right: 5.5vw;
+    margin-top: 3.5vh;
+    margin-bottom: 2.8vh;
+    margin-right: 5.3vw;
     display: flex;
     flex-wrap: wrap;
 }
 
 .header__menu li {
     position: relative;
-    padding-left: 34px;
+    padding-left: 1.7vw;
 }
 
 .header__menu a {
@@ -24,5 +24,33 @@
 
 .header__menu a:hover {
     color: #ffffff;
-    text-decoration: none;
+    text-decoration: none; 
+}
+
+@media (max-width: 896px) {
+    .header__menu {
+        margin-top: 2.3vh;
+        margin-right: 5.5vw;
+        margin-bottom: 1.9vh;
+    }
+
+    .header__menu li {
+        padding-left: 4.43vw;
+    }
+}
+
+@media (max-width: 460px) {
+    .header__menu {
+        margin-top: 3.3vh;
+        margin-right: 4.5vw;
+        margin-bottom: 3vh;
+    }
+
+    .header__menu a {
+        font-size: 1rem;
+    }
+
+    .header__menu li {
+        padding-left: 3.43vw;
+    }
 }

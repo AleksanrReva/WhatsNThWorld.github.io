@@ -2,15 +2,6 @@ h1, h2, h3, h4, h5, h6, ul, p, form{
     margin: 0;
 }
 
-h1 {
-    font-family: 'Roboto Slab';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 3.75rem;
-    line-height: 4rem;
-    color: #ffffff;
-}
-
 h2 {
     font-family: 'Roboto Slab';
     font-style: normal;
@@ -20,15 +11,14 @@ h2 {
     color: #1A1B22;
 }
 
-/* p {
-    margin-top: 32px;
-    font-family: 'Roboto';
+h3 {
+    font-family: 'Roboto Slab';
     font-style: normal;
-    font-weight: normal;
-    font-size: 1.13rem;
-    line-height: 1.5rem;
+    font-weight: 400;
+    font-size: 1.63rem;
+    line-height: 1.88rem;
     color: #1A1B22;
-} */
+}
 
 ul {
     padding: 0;
@@ -42,4 +32,18 @@ ul {
     -ms-text-size-adjust: 100%;
     -moz-text-size-adjust: 100%;
     text-rendering: optimizeLegibility;
+}
+
+@media (max-width: 896px) {
+    h2 {
+        font-size: 1.88rem;
+        line-height: 2.13rem;
+    }
+}
+
+@media (max-width: 460px) {
+    h3 {
+        font-size: 1.38rem;
+        line-height: 1.88rem;
+    }
 }

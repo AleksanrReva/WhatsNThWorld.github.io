@@ -7,5 +7,15 @@
     font-size: 1.13rem;
     color: #1A1B22;
 
-    margin-left: 104px;
+    margin-left: 5.4vw;
+}
+
+@media (max-width: 460px) {
+    .analytics__where-you-are {
+        position: absolute;
+        clip: rect(0 0 0 0);
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+    }
 }

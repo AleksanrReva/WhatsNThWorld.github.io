@@ -1,8 +1,23 @@
 .about-author__content {
     display: flex;
+    align-items: center;
+    
     position: relative;
     max-width: 1440px;
     margin: 0 auto;
-    margin-top: 80px;
-    margin-bottom: 80px;
+    margin-top: 8.6vh;
+    margin-bottom: 8.6vh;
+}
+
+@media (max-width: 896px) {
+    .about-author__content {
+        margin-top: 6vh;
+        margin-bottom: 8.6vh;
+    }
+}
+
+@media (max-width: 460px) {
+    .about-author__content {
+        display: block;
+    }
 }

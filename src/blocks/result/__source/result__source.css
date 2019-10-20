@@ -9,7 +9,21 @@
     letter-spacing: 0.03rem;
     text-transform: uppercase;
 
-    margin-left: 24px;
+    margin-left: 1.3vw;
     position: absolute;
-    bottom: 24px;
+    bottom: 2.5vh;
+}
+
+@media (max-width: 896px) {
+    .result__source {
+        margin-left: 2vw;
+        bottom: 1.5vh;
+    }
+}
+
+@media (max-width: 460px) {
+    .result__source {
+        margin-left: 5vw;
+        bottom: 3.5vh;
+    }
 }

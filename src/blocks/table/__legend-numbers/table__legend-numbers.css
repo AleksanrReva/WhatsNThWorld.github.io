@@ -2,9 +2,16 @@
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 12px;
+    font-size: 0.75rem;
     color: #B6BCBF;
 
-    margin-left: 265px;
-    margin-top: 17px;
+    margin-left: 13.8vw;
+    margin-top: 1.8vh;
+}    
+
+@media (max-width: 896px) {
+    .table__legend-numbers {
+        margin-top: 1.6vh;
+        margin-left: 16.3vw;
+    }
 }

@@ -1,9 +1,9 @@
 .search__button {
     position: absolute;
-    bottom: 80px;
+    bottom: 8.6vh;
     right: 0px;
 
-    width: 168px;
+    width: 27.5%;
     height: 64px;
     border: none;
     border-radius: 32px;
@@ -24,4 +24,24 @@
 
 .search__button:focus {
     background-color: #2A65CC;
+}
+
+@media (max-width: 896px) {
+    .search__button {
+        height: 56px;
+        bottom: 4.8vh;
+        width: 34.5%;
+        border-radius: 28px;
+    }
+}
+
+@media (max-width: 460px) {
+    .search__button {
+        position: relative;
+        width: 100%;
+        border-radius: 28px;
+        
+        margin-top: 3vh;
+        margin-bottom: 1vh;
+    }
 }

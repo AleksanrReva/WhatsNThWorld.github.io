@@ -1,4 +1,17 @@
 .footer__icons {
-    margin-left: 28px;
+    margin-left: 1.5vw;
     width: 20px;
+}
+
+@media (max-width: 896px) {
+    .footer__icons {
+        margin-left: 2.5vw;
+    }
+}
+
+@media (max-width: 460px) {
+    .footer__icons {
+        margin-left: 7.5vw;
+        margin-top: 1vh;
+    }
 }

@@ -1,5 +1,5 @@
 .header__logo {
-    margin-top: 31px;
+    margin-top: 3.3vh;
     margin-left: 5.5vw;
 
     font-family: 'Roboto Slab';
@@ -7,5 +7,18 @@
     font-weight: 700;
     font-size: 1.25rem;
     color: #ffffff;
-    text-decoration: none;
+    text-decoration: none; 
+}
+
+@media (max-width: 896px) {
+    .header__logo {
+        margin-top: 2.2vh;
+    }
+}
+
+@media (max-width: 460px) {
+    .header__logo {
+        font-size: 1rem;
+        margin-top: 3.5vh;
+    }
 }

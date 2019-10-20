@@ -1,4 +1,10 @@
 .tech-info__logo {
     width: 100%;
-    margin-top: 23px;
+    margin-top: 4.3vh;
+}
+
+@media (max-width: 460px) {
+    .tech-info__logo {
+        margin-bottom: 7.2vh;
+    }
 }

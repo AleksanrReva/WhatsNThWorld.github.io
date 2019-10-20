@@ -1,12 +1,35 @@
 .tech-info__list {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    grid-template-columns: repeat(auto-fill, 100px);
     justify-content: center;
     column-gap: 65px;
+
+    margin-top: 10.4vh;
+    margin-bottom: 10.4vh;
+    margin-right: 11.3vw;
+    max-width: 52%;
+}
+
+@media (max-width: 896px) {
+    .tech-info__list {
+        margin-bottom: 0;
+        margin-top: 4.1vh;
+        margin-right: 2.3vw;
+
+        padding-bottom: 4.5vh;
+
+        column-gap: 83px;
+        max-width: unset;
+    }
+}
+
+@media (max-width: 460px) {
+    .tech-info__list {
+        margin-right: 0;
+        margin-top: 7.1vh;
+        padding-bottom: 0.5vh;
+
+        column-gap: 54px;
     
-    margin: 0 auto;
-    margin-top: 98px;
-    margin-bottom: 97px;
-    margin-right: 216px;
-    max-width: 600px;
+    }
 }

@@ -1,12 +1,25 @@
 .result__content {
     max-width: 1440px;
     margin: 0 auto;
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 8.6vh;
+    padding-bottom: 8.6vh;
 
     background-color: #F5F6F7;
 
     display: flex;
     flex-flow: column;
     align-items: center;
+}
+
+@media (max-width: 896px) {
+    .result__content {
+        padding-top: 4vh;
+        padding-bottom: 4vh;
+    }
+}
+
+@media (max-width: 460px) {
+    .result__content {
+        padding-bottom: 8vh;
+    }
 }

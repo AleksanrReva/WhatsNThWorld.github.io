@@ -1,0 +1,9 @@
+.search__background {
+    background-image: url('../../../images/main_background.png');
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+
+    max-width: 1440px;
+    margin: 0 auto;
+}

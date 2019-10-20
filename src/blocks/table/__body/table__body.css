@@ -1,7 +1,13 @@
 .table__body {
-    max-width: 1232px;
+    max-width: 85.5%;
     margin: 0 auto;
-    margin-top: 12px;
+    margin-top: 1.2vh;
 
     border-top: 1px solid #1A1B22;
+}
+
+@media (max-width: 896px) {
+    .table__body {
+        max-width: 89.5%;
+    }
 }

@@ -10,8 +10,8 @@
 </head>
 <body>
     <main class="page">
-        <form class="search">
-            <header class="header">
+        <header class="search search__background">
+            <div class="header">
                 <div class="header__bar">
                     <a class="header__logo" href="./index.html" title="Титульная страница" target="_blank">NewsAnalyzer</a>
                     <ul class="header__menu">
@@ -23,17 +23,17 @@
                         </li>
                     </ul>
                 </div> 
-            </header>
-            <div class="search__area">
-                <h1>Что в мире творится?</h1>
+            </div>
+            <form class="search__area">
+                <h1 class="search__title">Что в мире творится?</h1>
                 <p class="search__paragraph">Введите в поиске любую тему и узнайте, 
                     насколько популярной она была в новостях за прошедшую неделю.</p>
                 <input class="search__input" placeholder="Введите тему новости">
                 <button class="search__button">Искать</button>
-            </div>
-        </form>
+            </form>
+        </header>
 
-        <section class="search-result">
+        <section class="search-result hidden__element">
             <div class="search-result__loader">
                 <div class="search-result__spinner"></div>
                 <p class="search-result__paragraph">Идёт поиск новостей...</p>
@@ -117,7 +117,7 @@
             <div class="about-author__content">
                 <img class="about-author__user-pic" src="<%=require('../../images/user_pic.jpg')%>" alt="Автор: Александр Рева" />
                 <div class="about-author__user-text">
-                    <h2>Об авторе</h2>
+                    <h2 class="about-author__title">Об авторе</h2>
                     <p class="about-author__paragraph">Это блок с описанием автора проекта. Здесь следует указать, как вас зовут, чем вы занимаетесь, 
                         какими технологиями разработки владеете.</p>
                     <p class="about-author__paragraph">Также можно рассказать о процессе обучения в Практикуме, чему вы тут научились, и чем можете 
@@ -131,13 +131,13 @@
             <div class="footer__bar">
                 <a class="footer__copyright" href="./index.html" title="Титульная страница" target="_blank">&copy; 2019 Supersite</a>
                 <ul class="footer__nav">
-                    <li>
+                    <li class="footer__nav-item">
                         <a class="footer__link" href="./index.html" title="Титульная страница" target="_blank">Главная</a>
                     </li>
-                    <li>
+                    <li class="footer__nav-item">
                         <a class="footer__link" href="./about.html" title="Информация о сайте" target="_blank">О проекте</a>
                     </li>
-                    <li>
+                    <li class="footer__nav-item">
                         <a class="footer__link" href="https://praktikum.yandex.ru" 
                         title="Перейти на сайт" target="_blank">Яндекс.Практикум</a>
                     </li>

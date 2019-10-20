@@ -1,4 +1,17 @@
 .client__text {
-    max-width: 815px;
-    margin-left: 104px;
+    max-width: 56.5%;
+    margin-left: 5.4vw;
+}
+
+@media (max-width: 896px) {
+    .client__text {
+        max-width: 88.5%;
+        margin-left: 5.2vw;
+    }
+}
+
+@media (max-width: 460px) {
+    .client__text {
+
+    }
 }

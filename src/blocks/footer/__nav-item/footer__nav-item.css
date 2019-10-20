@@ -1,0 +1,6 @@
+@media (max-width: 460px) {
+    .footer__nav-item {
+        margin-bottom: 5vh;
+        margin-top: 1vh;
+    }
+}

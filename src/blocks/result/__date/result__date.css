@@ -5,6 +5,22 @@
     font-size: 1.13rem;
     color: #B6BCBF;
 
-    margin-left: 24px;
-    margin-top: 22px;
+    margin-left: 1.3vw;
+    margin-top: 2.4vh;
 }
+
+@media (max-width: 896px) {
+    .result__date {
+        margin-top: 1.7vh;
+        margin-left: 2vw;
+        margin-right: 2vw;
+    }
+}
+
+@media (max-width: 460px) {
+    .result__date {
+        margin-top: 2.5vh;
+        margin-left: 5vw;
+    }
+}
+

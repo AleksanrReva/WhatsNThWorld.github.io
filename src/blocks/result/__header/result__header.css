@@ -3,3 +3,9 @@
     justify-content: space-between;
     width: 100%;
 }
+
+@media (max-width: 460px) {
+    .result__header {
+        display: block;
+    }
+}

@@ -1,0 +1,11 @@
+@media (max-width: 896px) {
+    .result__image {
+        height: 17.8vh;
+    }
+}
+
+@media all and (max-width: 460px) {
+    .result__image {
+        height: 34.5vh;
+    }
+}

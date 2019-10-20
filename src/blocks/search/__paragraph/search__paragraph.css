@@ -1,9 +1,24 @@
 .search__paragraph {
     color: #ffffff;
-    margin-top: 33px;
+    margin-top: 3.5vh;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: normal;
     font-size: 1.13rem;
     line-height: 1.5rem;
+}
+
+@media (max-width: 896px) {
+    .search__paragraph {
+        margin-top: 1.5vh;
+    }
+}
+
+@media (max-width: 460px) {
+    .search__paragraph {
+        margin-top: 2.5vh;
+
+        font-size: 1.25rem;
+        line-height: 1.63rem;
+    }
 }

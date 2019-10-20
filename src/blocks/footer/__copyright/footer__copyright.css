@@ -6,5 +6,11 @@
     color: #B6BCBF;
     text-decoration: none;
 
-    margin-left: 104px;
+    margin-left: 5.5vw;
+}
+
+@media (max-width: 460px) {
+    .footer__copyright {
+        margin-top: 29vh;
+    }
 }

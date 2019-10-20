@@ -2,7 +2,15 @@
     position: relative;
     max-width: 1440px;
     margin: 0 auto;
-    margin-top: 80px;
-    padding-bottom: 87px;
+    margin-top: 8.6vh;
+    padding-bottom: 9vh;
     background: #F5F6F7;
+}
+
+@media (max-width: 896px) {
+    .table__content {
+        margin-top: 3.8vh;
+        margin-bottom: 2.5vh;
+        padding-bottom: 6vh;
+    }
 }

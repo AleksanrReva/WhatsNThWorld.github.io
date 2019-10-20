@@ -2,5 +2,20 @@
     position: relative;
     max-width: 608px;
     margin: 0 auto;
-    margin-top: 80px;
+    margin-top: 8.5vh;
+}
+
+@media (max-width: 896px) {
+    .search__area {
+        max-width: 448px;
+        margin-top: 4vh;
+    }
+}
+
+@media (max-width: 460px) {
+    .search__area {
+        margin-top: 5.9vh;
+        margin-left: 6vw;
+        margin-right: 6vw;
+    }
 }

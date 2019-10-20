@@ -4,7 +4,7 @@
     overflow: hidden;
 
     position: relative;
-    padding-bottom: 54px;
+    padding-bottom: 5.7vh;
 
     transition: box-shadow 300ms ease, transform 300ms ease;
 }
@@ -13,4 +13,18 @@
     cursor: pointer;
     box-shadow: 0 24px 58px 0 rgba(8,29,45,0.1);
     transform: translateY(-1px);
+}
+
+@media (max-width: 896px) {
+    .result__single-card {
+        padding-bottom: 2.5vh;
+    }
+}
+
+@media all and (max-width: 460px) {
+    .result__single-card {
+        margin-top: 1.5vh;
+        padding-bottom: 6.5vh;
+        max-width: 90vw;
+    }
 }
