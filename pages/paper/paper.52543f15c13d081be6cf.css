@@ -410,16 +410,6 @@ h2 {
     color: #1A1B22;
 }
 
-/* p {
-    margin-top: 32px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: normal;
-    font-size: 1.13rem;
-    line-height: 1.5rem;
-    color: #1A1B22;
-} */
-
 ul {
     padding: 0;
     list-style-type: none;
@@ -443,7 +433,7 @@ ul {
     justify-content: space-between;
 }
 .header__logo {
-    margin-top: 31px;
+    margin-top: 2.2vh;
     margin-left: 5.5vw;
 
     font-family: 'Roboto Slab';
@@ -451,7 +441,7 @@ ul {
     font-weight: 700;
     font-size: 1.25rem;
     color: #ffffff;
-    text-decoration: none;
+    text-decoration: none; 
 }
 .header__menu_active {
     color: #ffffff;
@@ -466,14 +456,14 @@ ul {
     position: absolute;
     display: block;
     content: "";
-    top:44px;
-    width: calc(100% - 34px);
+    top: 3.7vh;
+    width: calc(100% - 4.43vw);
     height: 3px;
-    background-color: #ffffff;
+    background-color: #ffffff; 
 }
 .header__menu {
-    margin-top: 32px;
-    margin-bottom: 26px;
+    margin-top: 2.3vh;
+    margin-bottom: 1.9vh;
     margin-right: 5.5vw;
     display: flex;
     flex-wrap: wrap;
@@ -481,7 +471,7 @@ ul {
 
 .header__menu li {
     position: relative;
-    padding-left: 34px;
+    padding-left: 4.43vw;
 }
 
 .header__menu a {
@@ -495,15 +485,7 @@ ul {
 
 .header__menu a:hover {
     color: #ffffff;
-    text-decoration: none;
-}
-.header__line {
-    position: absolute;
-    top:79px;
-    width: 1440px;
-    height: 1px;
-    background-color: #ffffff;
-    opacity: 0.2;
+    text-decoration: none; 
 }
 
 .analytics__content{
